@@ -1,0 +1,21 @@
+{
+  "name": "hypernova",
+  "displayName": "hypernova",
+  "description": "A darkier theme for VSCode based on One Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hypernova - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hypernova - Dark-color-theme.json"
+      }
+    ]
+  }
+}
