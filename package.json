@@ -1,7 +1,31 @@
 {
   "name": "hypernova",
-  "displayName": "hypernova",
-  "description": "A darkier theme for VSCode based on One Dark",
+  "displayName": "Hypernova",
+  "description": "A dark theme for VS Code based on Gruvbox",
+  "publisher": "marcos-c1",
+  "author": {
+    "name": "Marcos Bezerra Campos",
+    "url": "https://github.com/marcos-c1",
+    "email": "marcos.coder1@gmail.com"
+  },
+  "icon": "images/hypernova-logo.png",
+  "license": "MIT",
+  "homepage": "https://github.com/marcos-c1/hypernova/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/marcos-c1/hypernova/issues",
+    "email": "marcos.coder1@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcos-c1/hypernova.git"
+  },
+  "keywords": [
+    "themes",
+    "dark theme",
+    "gruvbox",
+    "hypernova",
+    "vscode"
+  ],
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
@@ -12,9 +36,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Hypernova - Dark",
+        "label": "hypernova",
         "uiTheme": "vs-dark",
-        "path": "./themes/Hypernova - Dark-color-theme.json"
+        "path": "./themes/hypernova-color-theme.json"
       }
     ]
   }

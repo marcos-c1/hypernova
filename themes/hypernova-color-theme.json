@@ -3,7 +3,7 @@
 	// UI
 	"colors": {
 		// Editor UI
-		"editor.background": "#100f0f",
+		"editor.background": "#000000e5",
 		"editorIndentGuide.background1": "#222222",
 		"editor.foreground": "#eeffff",
 		"editorIndentGuide.activeBackground1": "#b6b6b6",
@@ -24,8 +24,11 @@
 		// The bar which has all the actions of editor
 		"activityBar.background": "#000000",
 		"activityBar.border": "#292424",
+		"list.activeSelectionBackground": "#c0ca50",
+		"list.activeSelectionForeground": "#000000",
 		// Activity Status
-		"activityBarBadge.background": "#b41c05",
+		"activityBarBadge.background": "#cbd46f",
+		"activityBarBadge.foreground": "#000000",
 		"gitDecoration.modifiedResourceForeground": "#79e4f2",
 		"list.warningForeground": "#f3e84b"
 	},
@@ -74,11 +77,11 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"storage.type"
 			],
 			"settings": {
-				"foreground": "#ff6262"
+				"foreground": "#ff3859",
 			}
 		},
 		{
@@ -117,10 +120,11 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
 			],
 			"settings": {
-				"foreground": "#b1f60f"
+				"foreground": "#b1f60f",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -133,19 +137,20 @@
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
+			"name": "Other Variable, String Link, Storage Type",
 			"scope": [
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
 			],
 			"settings": {
 				"foreground": "#f07178"
 			}
 		},
 		{
-			"name": "Variable Property",
+			"name": "Variable Property and Keyword Control",
 			"scope": [
-				"variable.other.property"
+				"variable.other.property",
+				"keyword.control.import",
 			],
 			"settings": {
 				"foreground": "#d4a3fc"
@@ -164,7 +169,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -179,7 +184,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#baf89f"
+				"foreground": "#bce4ab"
 			}
 		},
 		{
@@ -218,7 +223,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#b1f60f"
 			}
 		},
 		{
@@ -268,7 +273,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#f26d74"
+				"foreground": "#b1f60f"
 			}
 		},
 		{
@@ -383,7 +388,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -494,7 +499,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -653,6 +658,6 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		}
+		},
 	]
 }
