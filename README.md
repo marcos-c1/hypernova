@@ -11,7 +11,9 @@ A minimal dark theme for VSCode based on <a href="https://github.com/morhetz/gru
 </p>
 
 <p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=marcos-c1.hypernova">
 <img alt="Version" src="https://img.shields.io/badge/Vscode-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</a>
 </p>
 
 <p align="center">
@@ -30,6 +32,21 @@ A minimal dark theme for VSCode based on <a href="https://github.com/morhetz/gru
 ## Manual Installation
 
 Read the [VSC Extension Quickstart Guide](vsc-extesion-quickstart.md)
+
+## Color Pallete
+
+![Editor UI](images/hypernova-editor-ui.png)
+![Syntax Colors](images/hypernova-syntax-colors.png)
+
+## References
+
+All those references was extracted from Visual Studio API.
+
+- [Semantic Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
+- [TextMate Grammar](https://macromates.com/manual/en/language_grammars)
+- [Syntax Highlight & TextMate Grammar Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+- [Extension Publishing Guide on VSCode Marketplace](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+- [Theme Color Guide](https://code.visualstudio.com/api/extension-capabilities/theming)
 
 ## Donate
 

@@ -45,18 +45,10 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Variables, Constant",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "Colors",
-			"scope": [
+				"string constant.other.placeholder",
 				"constant.other.color"
 			],
 			"settings": {
@@ -137,7 +129,7 @@
 			}
 		},
 		{
-			"name": "Other Variable, String Link, Storage Type",
+			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
 				"string.other.link",
